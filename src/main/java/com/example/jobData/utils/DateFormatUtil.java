@@ -1,4 +1,4 @@
-package com.example.jobData.Utils;
+package com.example.jobData.utils;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

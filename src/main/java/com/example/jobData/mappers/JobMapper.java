@@ -1,6 +1,6 @@
 package com.example.jobData.mappers;
 
-import com.example.jobData.Utils.DateFormatUtil;
+import com.example.jobData.utils.DateFormatUtil;
 import com.example.jobData.enums.Gender;
 import com.example.jobData.models.Job;
 import com.example.jobData.models.dtos.JobDto;
