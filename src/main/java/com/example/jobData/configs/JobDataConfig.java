@@ -1,4 +1,4 @@
-package com.example.jobData.config;
+package com.example.jobData.configs;
 
 import com.example.jobData.mappers.JobMapper;
 import com.example.jobData.models.Job;
@@ -11,8 +11,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
