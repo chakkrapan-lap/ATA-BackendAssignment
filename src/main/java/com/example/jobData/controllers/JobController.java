@@ -15,7 +15,7 @@ public class JobController {
     private JobService jobService;
     @GetMapping("/jobs")
     public ResponseEntity<Object> getJobDataList(
-            @RequestParam(required = false) Map<String, String> request) {
+            @RequestParam(required = true) Map<String, String> request) {
         return ResponseEntity.status(HttpStatus.OK).body(jobService.getJobDateList(request));
     }
 }
