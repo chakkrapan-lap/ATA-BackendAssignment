@@ -17,7 +17,6 @@ public class Food {
     public ResponseEntity<Object> getJobDataList(
             @RequestParam(required = false) Map<String, String> request) {
          System.out.println(41);
-        System.out.println(4901);
         return ResponseEntity.status(HttpStatus.OK).body(jobService.getJobDateList(request));
     }
 }
