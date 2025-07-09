@@ -9,7 +9,8 @@ import org.springframework.http.HttpStatus;
 @Getter
 public enum Gender {
     MALE("Male"),
-    FEMALE("Female");
+    FEMALE("Female"),
+    NONE("none");
 
     private final String value;
 
