@@ -16,6 +16,9 @@ public class JobController {
     @GetMapping("/jobs/id")
     public ResponseEntity<Object> getJobDataList(
             @RequestParam(required = true) Map<String, String> request) {
+        if(true) {
+            System.out.println("GOdd");
+        }
         System.out.println(41);
         return ResponseEntity.status(HttpStatus.OK).body(jobService.getJobDateList(request));
     }
