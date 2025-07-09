@@ -13,7 +13,7 @@ import java.util.Map;
 @RequestMapping("/api")
 public class JobController {
     private JobService jobService;
-    @GetMapping("/jobs")
+    @GetMapping("/jobs/id")
     public ResponseEntity<Object> getJobDataList(
             @RequestParam(required = true) Map<String, String> request) {
         System.out.println(41);
